@@ -30,8 +30,8 @@ class MultiMap implements Collection, IteratorAggregate
     {
         return (int) array_reduce(
             $this->values,
-            function ($sum, $samePriorityItems) {
-                return $sum += count($samePriorityItems);
+            function ($sum, $itemsWithSameKey) {
+                return $sum += count($itemsWithSameKey);
             },
             0
         );
