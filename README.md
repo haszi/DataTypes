@@ -31,13 +31,11 @@ PHP 8.2+
 ## Acknowledgments / Credits
 
 ## TODO
-```[tasklist]
 ### Composition / inheritance
 - [X] ~~abstract class(es)~~
 - [ ] interfaces ???
 - [ ] traits
-```
-```[tasklist]
+
 ### Data Structures
 - [ ] Fixed Array
 - [ ] Dynamic Array
@@ -47,9 +45,7 @@ PHP 8.2+
 - [ ] Graph / Undirected Graph
 - [ ] Tree
 - [ ] Heap
-```
-```[tasklist]
+
 ### Performance
 - [ ] performance test after basic implementation
 - [ ] research and test data type specific performance optimizations
-```
