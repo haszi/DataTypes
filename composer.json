@@ -1,0 +1,23 @@
+{
+    "name": "haszi/datatypes",
+    "description": "Object-oriented data types for PHP",
+    "version": "1.0.0",
+    "autoload": {
+        "psr-4": {
+          "Haszi\\DataTypes\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Haszi\\DataTypes\\Test\\UnitTest\\": "tests/Unit/"
+        }
+    },
+    "require": {
+        "php": ">=8.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.4",
+        "phpstan/phpstan": "^1.10",
+        "vimeo/psalm": "^5.16"
+    }
+}
